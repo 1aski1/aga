@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "aga",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://lolz.live/*"], 
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["1.png", "2.png"],
+      "matches": ["https://lolz.live/*"]
+    }
+  ]
+}
